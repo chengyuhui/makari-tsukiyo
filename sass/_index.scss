@@ -1,0 +1,71 @@
+$content-top-margin : 5px;
+$box-shadows:2px 3px gray;
+
+body {
+  background-color: #C0B8B5;
+  font-family:'Microsoft YaHei UI','Microsoft YaHei',DengXian,SimSun,'Segoe UI',Tahoma,Helvetica,sans-serif;
+  overflow-x:hidden;
+}
+
+#brand{
+  font-weight: 600;
+  font-size: 30px;
+  .green{
+    color:green
+  }
+}
+
+nav.top {
+  background-color: white;
+  width: 100%;
+  .row {
+    padding:15px;
+  }
+}
+
+.side-nav {
+  background-color: white;
+  margin-top:$content-top-margin;
+  @include box-shadow($box-shadows);
+  padding: 15px;
+  @include breakpoint(min-width $screen-md-max) {
+    padding-bottom:50px;
+  };
+
+  .nav-hot {
+    background-color: red;
+    color:white;
+    padding:7px;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  ul{
+    list-style-type: none;
+    padding:3px;
+    margin: 10px 0 0;
+    border-top:2px solid red;
+    border-bottom:2px solid gray;
+    padding-bottom:10px;
+    li {
+      margin-top: 5px;
+      img {
+        max-height:40px;
+        display: inline-block;
+      }
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.content {
+  background-color: white;
+  margin-top:$content-top-margin;
+  @include box-shadow($box-shadows);
+  @include breakpoint(max-width $screen-xs-max) {
+    width:100%;
+  };
+}
+

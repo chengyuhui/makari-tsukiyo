@@ -1,0 +1,19 @@
+{
+  "name": "makari_tsukiyo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-livereload": "~2.1.0",
+    "gulp": "~3.8.5",
+    "gulp-load-plugins": "~0.5.3",
+    "coffee-script": "~1.7.1",
+    "gulp-taskfromstreams": "0.0.3",
+    "gulp-compass": "~1.1.9"
+  }
+}
