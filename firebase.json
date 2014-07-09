@@ -1,0 +1,13 @@
+{
+  "firebase": "blinding-fire-8767",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    ".*",
+    "**/node_modules/**",
+    "README.md",
+    "package.json",
+    "config.rb",
+    "LICENSE"
+  ]
+}
